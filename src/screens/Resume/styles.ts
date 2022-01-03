@@ -4,9 +4,7 @@ import { RFValue } from 'react-native-responsive-fontsize';
 import styled from 'styled-components/native';
 
 
-export const Content = styled.ScrollView.attrs({
-  contentContainerStyle : {  padding: 24 }
-})`
+export const Content = styled.ScrollView`
 `;
 export const Container = styled.View`
   background-color: ${({ theme }) => theme.colors.background};
